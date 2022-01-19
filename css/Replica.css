@@ -1,0 +1,55 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+}
+
+#entrada{
+    height: 38px;
+}
+
+.redes {
+    font-size: 40px;
+}
+
+.redes i{
+    margin-left: 10px;
+}
+
+#VentaTelefonicaNaranja{
+    color: #F0421C;
+}
+
+#telefono{
+    color: #F0421C;
+    font-size: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+.badgeProductos{
+    text-align: center;
+    background-color: #F0421C;
+    color: white;
+    width: 225px;
+    height: 35px;
+}
+
+.texto_badge{
+   font-size: 18px;
+}
+
+.icono_badge{
+    font-size: 25px;
+}
+
+.imagenesPie img{
+    width: 100px;
+}
+
+#parrafoFinal{
+    font-size: 10px;
+}
