@@ -14,9 +14,7 @@ namespace Prueba_Megatone
 		private string modelo;
 		private string caracteristicas;
 		private double precio;
-		public static ArrayList celulares = new ArrayList();
-		
-
+		public ArrayList celulares = new ArrayList();
 		
 
 		public string Nombre
@@ -51,7 +49,8 @@ namespace Prueba_Megatone
             this.precio = precio;
         }
 
-        public void AgregarCelular()
+        //agrega un celular a un arraylist
+		public void AgregarCelular()
 		{
 			ArrayList lista = new ArrayList();
 			if (ValidarDatos())
@@ -60,12 +59,8 @@ namespace Prueba_Megatone
 			}
 
 		}
-
-		public void BorrarCelular()
-		{
-
-		}
-
+		
+		//busca un celular en un arraylis
 		public void BuscarCelular(string marca, string modelo, string precio)
 		{
 			foreach (string c in celulares)
@@ -78,6 +73,7 @@ namespace Prueba_Megatone
             }
 		}
 
+		//hago una pequeña validacion de los datos
 		public bool ValidarDatos()
 		{
 			if(marca != "" && modelo != "" && caracteristicas != "" && precio != null)
@@ -90,11 +86,7 @@ namespace Prueba_Megatone
             }
 		}
 
-		public static string LeerDatos()
-		{
-			
-			return Console.ReadLine();
-		}
+		
 
 		
 	}
